@@ -1,0 +1,15 @@
+{
+  "name": "cfn-custom-certificate",
+  "version": "0.0.1",
+  "description": "Defines helper functions for managing AWS Certificate Managers certificates via the aws-sdk for JS. It provides functionality for requesting and validating certificates and observing the validation status. The package can be used within a AWS Lambda which could back a cloudformation custom resource.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Vincenz Koop",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.213.1"
+  }
+}
