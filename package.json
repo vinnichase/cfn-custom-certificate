@@ -11,5 +11,20 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.213.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnichase/cfn-custom-certificate.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "custom",
+    "certificate",
+    "lambda"
+  ],
+  "bugs": {
+    "url": "https://github.com/vinnichase/cfn-custom-certificate/issues"
+  },
+  "homepage": "https://github.com/vinnichase/cfn-custom-certificate#readme"
 }
