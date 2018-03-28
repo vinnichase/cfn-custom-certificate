@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "publish": "rm -rf dist && cp -R src dist/ && npm version patch && npm publish"
+    "publish:prod": "rm -rf dist && cp -R src dist/ && npm version patch && npm publish"
   },
   "author": "Vincenz Koop",
   "license": "MIT",
